@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import style from './index.scss'
-import {Row, Col, Input, Button,message} from "antd";
+import {Row, Col, Input, Button} from "antd";
 
 const {Search} = Input;
 
 class index extends Component {
     render() {
-        console.log("style",style)
         return (
             <div className={style.Nav}>
                 <Row>

@@ -1,6 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Route,} from "react-router-dom";
-import {Layout, Col, Row, Typography, Avatar, Icon, Divider} from 'antd';
+import {Layout} from 'antd';
 
 import Home from './pages/Home'
 import New from './pages/New'

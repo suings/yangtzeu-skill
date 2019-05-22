@@ -10,14 +10,14 @@ class Card extends Component {
         const {info, skill, link, time, views} = this.props.data;
 
         var genderIcon = null;
-        if (info.gender == "男") {
+        if (info.gender === "男") {
             genderIcon = <Icon type="man" style={{backgroundColor: "#1890ff"}} className={style.icon} />
-        } else if (info.gender == "女") {
+        } else if (info.gender === "女") {
             genderIcon = <Icon type="woman" style={{backgroundColor: "#ed8585"}} className={style.icon}/>
         }
 
         return (
-            <a href="" style={{color: '#000'}} target="_blank">
+            <a href="/" style={{color: '#000'}} target="_blank">
                 <div className={style.card}>
                     <div className={style.card_header}>
                         <div className={style.headimg}>

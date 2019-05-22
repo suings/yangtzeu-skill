@@ -39,6 +39,6 @@ $ yarn start
 
 ~~查看更多关于这个项目的贡献者，请阅读 [contributors](#)~~
 
-## License 授权协议
+## License
 
-这个项目 MIT 协议， 请点击 [LICENSE.md](LICENSE.md) 了解更多细节。
+这个项目使用 MIT 协议， 请点击 [LICENSE.md](LICENSE.md) 了解更多细节。

@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.content{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+  @media (min-width: 1200px) {
+    padding: 0 50px;
+  }
+  margin: 0 auto;
+}

@@ -1,0 +1,13 @@
+.Nav{
+  text-align: center;
+  width: 100%;
+  max-width: 1200px; //antd content默认的宽度
+  margin: 0 auto;
+  padding-left: calc(50px + 1.64%);
+  padding-right: calc(50px + 1.64%);
+  .title{
+    display: inline;
+    color: #ffffff;
+    float: left;
+  }
+}

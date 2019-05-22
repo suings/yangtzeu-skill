@@ -1,0 +1,138 @@
+.main_content {
+  width: 100%;
+  //margin: 0 auto;
+  .Row {
+    .Col {
+      height: 360px;
+    }
+  }
+}
+
+.card {
+  &:hover {
+    top: -10px;
+  }
+
+  width: 90%;
+  height: 320px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  transition: all 0.2s;
+  -moz-transition: all 0.2s; /* Firefox 4 */
+  -webkit-transition: all 0.2s; /* Safari 和 Chrome */
+  -o-transition: all 0.2s;
+  -moz-box-shadow: 0px 4px 12px #ddd;
+  -webkit-box-shadow: 0px 4px 12px #ddd;
+  box-shadow: 0px 4px 12px #ddd;
+
+  border-radius: 6px;
+
+  .card_header {
+    height: 20%;
+    background: #ffffff;
+    position: relative;
+    padding: .75em 1.5em;
+
+    .headimg {
+      position: relative;
+      float: left;
+      padding-right: 1em;
+
+      .icon {
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        border-radius: 14px;
+        text-align: center;
+        font-size: 10px;
+        color: #ffffff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+    }
+
+    .message {
+      float: left;
+
+      li:nth-child(1) {
+        font-size: 1.2em;
+      }
+
+      li:nth-child(2) {
+        font-size: 0.7em;
+      }
+
+      ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+    }
+
+
+  }
+
+  .card_content {
+    list-style-type: none;
+    padding: 0;
+    height: 70%;
+
+    color: #A3A3A3;
+
+    li {
+      border-top: 1px solid rgba(0, 0, 0, .125);
+      padding: 5px 1.5em;
+    }
+
+    .list-group-item:nth-child(1) {
+      background-color: #efefef;
+      height: 50%;
+
+
+    }
+
+    .list-group-item:nth-child(2) {
+      background-color: #f5f5f5;
+      height: 50%;
+
+    }
+
+    .list-group-item:nth-child(3) {
+      background-color: #ffffff;
+      height: 100%;
+      // 显示访问量和日期
+      div {
+        display: inline-block;
+        float: right;
+        margin-left: 10px;
+      }
+    }
+  }
+
+}
+
+.badge {
+  background-color: #1890ff;
+  color: white;
+  padding: 5px;
+  float: left;
+  width: 100%;
+
+  text-align: center;
+  //font-size: 75%;
+
+}
+
+.badge_item {
+  background-color: white;
+  color: black;
+  float: left;
+  padding: 5px;
+  margin: 0 5px 5px;
+
+  //font-size: 75%;
+
+}

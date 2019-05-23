@@ -17,7 +17,7 @@ class Card extends Component {
         }
 
         return (
-            <a href="/" style={{color: '#000'}} target="_blank">
+            <a href={"/d/"+this.props.data.key} style={{color: '#000'}} target="_blank">
                 <div className={style.card}>
                     <div className={style.card_header}>
                         <div className={style.headimg}>
@@ -105,6 +105,7 @@ class index extends Component {
                 "qq": "1357424862",
                 "phone": "17398224910"
             },
+            key:1,
             "time": new Date().toDateString(),
             "views": "999+"
 

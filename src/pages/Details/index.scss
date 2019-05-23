@@ -1,0 +1,112 @@
+.container_card {
+  background-color: white;
+  -webkit-box-shadow: 0 4px 12px #ddd;
+  box-shadow: 0 4px 12px #ddd;
+  padding: 50px 40px;
+
+  .header {
+    margin: 0 auto;
+    padding: 0 auto;
+
+    .avatar {
+      display: block;
+      margin: 0 auto;
+      height: 64px;
+      width: 64px;
+      position: relative;
+
+      .avatar_img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+      }
+
+      .icon_man {
+        background-color: #1890ff;
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        border-radius: 14px;
+        text-align: center;
+        font-size: 10px;
+        color: #ffffff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+
+      .icon_woman {
+        background-color: #ed8585;
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        border-radius: 14px;
+        text-align: center;
+        font-size: 10px;
+        color: #ffffff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .campus_grade {
+      text-align: center;
+    }
+  }
+
+  .badge {
+
+    background-color: #1890ff;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    width: calc(100% - 20px);
+
+    text-align: center;
+  }
+
+  .badge_item {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    color: #707070;
+    background: #EBEBEB
+  }
+
+  .say {
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .link {
+    .key {
+      background-color: #1890ff;
+      color: white;
+      padding: 5px;
+      margin-right: 10px;
+      //float: left;
+      width: calc(100% - 10px);
+      text-align: center;
+    }
+    .value {
+      padding: 5px;
+
+    }
+    .title{
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .message{
+      font-size: 12px;
+    }
+  }
+
+}
+
